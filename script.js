@@ -56,21 +56,21 @@ for (var i = 1; i < 15; i++) {
 function rotateInfo() {
   var tl = new TimelineMax();
 
-  tl.add("likely");
+  tl.add("EXBONDS");
   tl.to($(".p1"), 0.3, {
       scale: 1.3,
       transformOrigin: "50% 100%",
       fill: $blue,
       ease: Bounce.easeOut
-    }, "likely")
+    }, "EXBONDS")
     .to($effect, 0.3, {
       y: -10,
       ease: Circ.easeOut
-    }, "likely")
+    }, "EXBONDS")
     .to($eLine, 0.3, {
       stroke: $orange,
       ease: Sine.easeOut
-    }, "likely")
+    }, "EXBONDS")
     .fromTo($(".d1"), 0.3, {
       opacity: 0,
       scale: 0.7 
@@ -78,52 +78,52 @@ function rotateInfo() {
       opacity: 1,
       scale: 1,
       ease: Back.easeOut
-    }, "likely")
+    }, "EXBONDS")
     .to($m1, 0.3, {
       fill: $green,
       ease: Circ.easeOut
-    }, "likely");
+    }, "EXBONDS");
   
   tl.to($(".p1"), 0.3, {
       scale: 1,
       transformOrigin: "50% 100%",
       fill: $reg,
       ease: Back.easeIn
-    }, "likely+=1.25")
+    }, "EXBONDS+=1.25")
     .to($effect, 0.3, {
       y: 0,
       ease: Circ.easeIn
-    }, "likely+=1.25")
+    }, "EXBONDS+=1.25")
     .to($eLine, 0.3, {
       stroke: $red,
       ease: Sine.easeIn
-    }, "likely+=1.25")
+    }, "EXBONDS+=1.25")
     .to($(".d1"), 0.3, {
       opacity: 0,
       scale: 0.7 
-    }, "likely+=1.25")
+    }, "EXBONDS+=1.25")
     .to($m1, 0.3, {
       fill: $mReg,
       ease: Circ.easeIn
-    }, "likely+=1.25");
+    }, "EXBONDS+=1.25");
     tl.to($circ, 1, {
       rotation: -23
-    }, "likely+=1.25");
+    }, "EXBONDS+=1.25");
   
     tl.to($(".p2"), 0.3, {
       scale: 1.3,
       transformOrigin: "50% 100%",
       fill: $blue,
       ease: Bounce.easeOut
-    }, "likely+=2")
+    }, "EXBONDS+=2")
     .to($effect, 0.3, {
       y: -18,
       ease: Circ.easeOut
-    }, "likely+=2")
+    }, "EXBONDS+=2")
     .to($eLine, 0.3, {
       stroke: $orange,
       ease: Sine.easeOut
-    }, "likely+=2")
+    }, "EXBONDS+=2")
     .fromTo($(".d2"), 0.3, {
       opacity: 0,
       scale: 0.7 
@@ -131,52 +131,52 @@ function rotateInfo() {
       opacity: 1,
       scale: 1,
       ease: Back.easeOut
-    }, "likely+=2")
+    }, "EXBONDS+=2")
     .to([$m1, $m2], 0.3, {
       fill: $green,
       ease: Circ.easeOut
-    }, "likely+=2");
+    }, "EXBONDS+=2");
   
   tl.to($(".p2"), 0.3, {
       scale: 1,
       transformOrigin: "50% 100%",
       fill: $reg,
       ease: Back.easeIn
-    }, "likely+=3.5")
+    }, "EXBONDS+=3.5")
     .to($effect, 0.3, {
       y: 0,
       ease: Circ.easeIn
-    }, "likely+=3.5")
+    }, "EXBONDS+=3.5")
     .to($eLine, 0.3, {
       stroke: $red,
       ease: Sine.easeIn
-    }, "likely+=3.5")
+    }, "EXBONDS+=3.5")
     .to($(".d2"), 0.3, {
       opacity: 0,
       scale: 0.7 
-    }, "likely+=3.5")
+    }, "EXBONDS+=3.5")
     .to([$m1, $m2], 0.3, {
       fill: $mReg,
       ease: Circ.easeIn
-    }, "likely+=3.5");
+    }, "EXBONDS+=3.5");
       tl.to($circ, 1, {
         rotation: -42
-      }, "likely+=3.5");
+      }, "EXBONDS+=3.5");
   
   tl.to($(".p3"), 0.3, {
       scale: 1.3,
       transformOrigin: "50% 100%",
       fill: $blue,
       ease: Bounce.easeOut
-    }, "likely+=4")
+    }, "EXBONDS+=4")
     .to($effect, 0.3, {
       y: -20,
       ease: Circ.easeOut
-    }, "likely+=4")
+    }, "EXBONDS+=4")
     .to($eLine, 0.3, {
       stroke: $orange,
       ease: Sine.easeOut
-    }, "likely+=4")
+    }, "EXBONDS+=4")
     .fromTo($(".d3"), 0.3, {
       opacity: 0,
       scale: 0.7 
@@ -184,52 +184,52 @@ function rotateInfo() {
       opacity: 1,
       scale: 1,
       ease: Back.easeOut
-    }, "likely+=4")
+    }, "EXBONDS+=4")
     .to([$m1, $m2], 0.3, {
       fill: $green,
       ease: Circ.easeOut
-    }, "likely+=4");
+    }, "EXBONDS+=4");
   
     tl.to($(".p3"), 0.3, {
       scale: 1,
       transformOrigin: "50% 100%",
       fill: $reg,
       ease: Back.easeIn
-    }, "likely+=5.5")
+    }, "EXBONDS+=5.5")
     .to($effect, 0.3, {
       y: 0,
       ease: Circ.easeIn
-    }, "likely+=5.5")
+    }, "EXBONDS+=5.5")
     .to($eLine, 0.3, {
       stroke: $red,
       ease: Sine.easeIn
-    }, "likely+=5.5")
+    }, "EXBONDS+=5.5")
     .to($(".d3"), 0.3, {
       opacity: 0,
       scale: 0.7 
-    }, "likely+=5.5")
+    }, "EXBONDS+=5.5")
     .to([$m1, $m2], 0.3, {
       fill: $mReg,
       ease: Circ.easeIn
-    }, "likely+=5.5");
+    }, "EXBONDS+=5.5");
        tl.to($circ, 1, {
           rotation: -62
-        }, "likely+=5.5");
+        }, "EXBONDS+=5.5");
   
     tl.to($(".p4"), 0.3, {
       scale: 1.3,
       transformOrigin: "50% 100%",
       fill: $blue,
       ease: Bounce.easeOut
-    }, "likely+=6")
+    }, "EXBONDS+=6")
     .to($effect, 0.3, {
       y: -20,
       ease: Circ.easeOut
-    }, "likely+=6")
+    }, "EXBONDS+=6")
     .to($eLine, 0.3, {
       stroke: $orange,
       ease: Sine.easeOut
-    }, "likely+=6")
+    }, "EXBONDS+=6")
     .fromTo($(".d4"), 0.3, {
       opacity: 0,
       scale: 0.7 
@@ -237,48 +237,48 @@ function rotateInfo() {
       opacity: 1,
       scale: 1,
       ease: Back.easeOut
-    }, "likely+=6")
+    }, "EXBONDS+=6")
     .to([$m1, $m2], 0.3, {
       fill: $green,
       ease: Circ.easeOut
-    }, "likely+=6");
+    }, "EXBONDS+=6");
   
     tl.to($(".p4"), 0.3, {
       scale: 1,
       transformOrigin: "50% 100%",
       fill: $reg,
       ease: Back.easeIn
-    }, "likely+=7.5")
+    }, "EXBONDS+=7.5")
     .to($effect, 0.3, {
       y: 0,
       ease: Circ.easeIn
-    }, "likely+=7.5")
+    }, "EXBONDS+=7.5")
     .to($eLine, 0.3, {
       stroke: $red,
       ease: Sine.easeIn
-    }, "likely+=7.5")
+    }, "EXBONDS+=7.5")
     .to($(".d4"), 0.3, {
       opacity: 0,
       scale: 0.7 
-    }, "likely+=7.5")
+    }, "EXBONDS+=7.5")
     .to([$m1, $m2], 0.3, {
       fill: $mReg,
       ease: Circ.easeIn
-    }, "likely+=7.5");
+    }, "EXBONDS+=7.5");
       tl.to($circ, 1, {
         rotation: -84
-      }, "likely+=7.5");
+      }, "EXBONDS+=7.5");
   
     tl.to($(".p5"), 0.3, {
       scale: 1.3,
       transformOrigin: "50% 100%",
       fill: $blue,
       ease: Bounce.easeOut
-    }, "likely+=8")
+    }, "EXBONDS+=8")
     .to($effect, 0.3, {
       y: -6,
       ease: Circ.easeOut
-    }, "likely+=8")
+    }, "EXBONDS+=8")
     .fromTo($(".d5"), 0.3, {
       opacity: 0,
       scale: 0.7 
@@ -286,48 +286,48 @@ function rotateInfo() {
       opacity: 1,
       scale: 1,
       ease: Back.easeOut
-    }, "likely+=8")
+    }, "EXBONDS+=8")
     .to([$m1, $m2, $m3], 0.3, {
       fill: $green,
       ease: Circ.easeOut
-    }, "likely+=8");
+    }, "EXBONDS+=8");
   
     tl.to($(".p5"), 0.3, {
       scale: 1,
       transformOrigin: "50% 100%",
       fill: $reg,
       ease: Back.easeIn
-    }, "likely+=9.5")
+    }, "EXBONDS+=9.5")
     .to($effect, 0.3, {
       y: 0,
       ease: Circ.easeIn
-    }, "likely+=9.5")
+    }, "EXBONDS+=9.5")
     .to($(".d5"), 0.3, {
       opacity: 0,
       scale: 0.7 
-    }, "likely+=9.5")
+    }, "EXBONDS+=9.5")
     .to([$m1, $m2, $m3], 0.3, {
       fill: $mReg,
       ease: Circ.easeIn
-    }, "likely+=9.5");
+    }, "EXBONDS+=9.5");
         tl.to($circ, 1, {
         rotation: -103
-      }, "likely+=9.5");
+      }, "EXBONDS+=9.5");
   
   tl.to($(".p6"), 0.3, {
       scale: 1.3,
       transformOrigin: "50% 100%",
       fill: $blue,
       ease: Bounce.easeOut
-    }, "likely+=10")
+    }, "EXBONDS+=10")
     .to($effect, 0.3, {
       y: -40,
       ease: Circ.easeOut
-    }, "likely+=10")
+    }, "EXBONDS+=10")
     .to($eLine, 0.3, {
       stroke: $yellow,
       ease: Circ.easeOut
-    }, "likely+=10")
+    }, "EXBONDS+=10")
     .fromTo($(".d6"), 0.3, {
       opacity: 0,
       scale: 0.7 
@@ -335,37 +335,37 @@ function rotateInfo() {
       opacity: 1,
       scale: 1,
       ease: Back.easeOut
-    }, "likely+=10")
+    }, "EXBONDS+=10")
     .to([$m1, $m2], 0.3, {
       fill: $green,
       ease: Circ.easeOut
-    }, "likely+=10");
+    }, "EXBONDS+=10");
   
     tl.to($(".p6"), 0.3, {
       scale: 1,
       transformOrigin: "50% 100%",
       fill: $reg,
       ease: Back.easeIn
-    }, "likely+=11.5")
+    }, "EXBONDS+=11.5")
     .to($effect, 0.3, {
       y: 0,
       ease: Circ.easeIn
-    }, "likely+=11.5")
+    }, "EXBONDS+=11.5")
     .to($eLine, 0.3, {
       stroke: $red,
       ease: Sine.easeOut
-    }, "likely+=11.5")
+    }, "EXBONDS+=11.5")
     .to($(".d6"), 0.3, {
       opacity: 0,
       scale: 0.7 
-    }, "likely+=11.5")
+    }, "EXBONDS+=11.5")
     .to([$m1, $m2], 0.3, {
       fill: $mReg,
       ease: Circ.easeIn
-    }, "likely+=11.5");
+    }, "EXBONDS+=11.5");
       tl.to($circ, 1, {
         rotation: -124
-      }, "likely+=11.5");
+      }, "EXBONDS+=11.5");
     
     tl.to($(".p7"), 0.3, {
       scale: 1.3,
@@ -374,15 +374,15 @@ function rotateInfo() {
       x: 10,
       y: 10,
       ease: Bounce.easeOut
-    }, "likely+=12")
+    }, "EXBONDS+=12")
     .to($effect, 0.3, {
       y: -40,
       ease: Circ.easeOut
-    }, "likely+=12")
+    }, "EXBONDS+=12")
     .to($eLine, 0.3, {
       stroke: $yellow,
       ease: Circ.easeOut
-    }, "likely+=12")
+    }, "EXBONDS+=12")
     .fromTo($(".d7"), 0.3, {
       opacity: 0,
       scale: 0.7 
@@ -390,11 +390,11 @@ function rotateInfo() {
       opacity: 1,
       scale: 1,
       ease: Back.easeOut
-    }, "likely+=12")
+    }, "EXBONDS+=12")
     .to([$m1, $m2], 0.3, {
       fill: $green,
       ease: Circ.easeOut
-    }, "likely+=12");
+    }, "EXBONDS+=12");
   
     tl.to($(".p7"), 0.3, {
       scale: 1,
@@ -403,26 +403,26 @@ function rotateInfo() {
       transformOrigin: "50% 100%",
       fill: $reg,
       ease: Back.easeIn
-    }, "likely+=13.5")
+    }, "EXBONDS+=13.5")
     .to($effect, 0.3, {
       y: 0,
       ease: Circ.easeIn
-    }, "likely+=13.5")
+    }, "EXBONDS+=13.5")
     .to($eLine, 0.3, {
       stroke: $red,
       ease: Sine.easeOut
-    }, "likely+=13.5")
+    }, "EXBONDS+=13.5")
     .to($(".d7"), 0.3, {
       opacity: 0,
       scale: 0.7 
-    }, "likely+=13.5")
+    }, "EXBONDS+=13.5")
     .to([$m1, $m2], 0.3, {
       fill: $mReg,
       ease: Circ.easeIn
-    }, "likely+=13.5");
+    }, "EXBONDS+=13.5");
       tl.to($circ, 1, {
         rotation: -149
-      }, "likely+=13.5");
+      }, "EXBONDS+=13.5");
 
     tl.to($(".p8"), 0.3, {
       scale: 1.3,
@@ -431,15 +431,15 @@ function rotateInfo() {
       x: 10,
       y: 10,
       ease: Bounce.easeOut
-    }, "likely+=14")
+    }, "EXBONDS+=14")
     .to($effect, 0.3, {
       y: -20,
       ease: Circ.easeOut
-    }, "likely+=14")
+    }, "EXBONDS+=14")
     .to($eLine, 0.3, {
       stroke: $orange,
       ease: Circ.easeOut
-    }, "likely+=14")
+    }, "EXBONDS+=14")
     .fromTo($(".d8"), 0.3, {
       opacity: 0,
       scale: 0.7 
@@ -447,11 +447,11 @@ function rotateInfo() {
       opacity: 1,
       scale: 1,
       ease: Back.easeOut
-    }, "likely+=14")
+    }, "EXBONDS+=14")
     .to([$m1, $m2], 0.3, {
       fill: $green,
       ease: Circ.easeOut
-    }, "likely+=14");
+    }, "EXBONDS+=14");
   
     tl.to($(".p8"), 0.3, {
       scale: 1,
@@ -460,26 +460,26 @@ function rotateInfo() {
       transformOrigin: "50% 100%",
       fill: $reg,
       ease: Back.easeIn
-    }, "likely+=15.5")
+    }, "EXBONDS+=15.5")
     .to($effect, 0.3, {
       y: 0,
       ease: Circ.easeIn
-    }, "likely+=15.5")
+    }, "EXBONDS+=15.5")
     .to($eLine, 0.3, {
       stroke: $red,
       ease: Sine.easeOut
-    }, "likely+=15.5")
+    }, "EXBONDS+=15.5")
     .to($(".d8"), 0.3, {
       opacity: 0,
       scale: 0.7 
-    }, "likely+=15.5")
+    }, "EXBONDS+=15.5")
     .to([$m1, $m2], 0.3, {
       fill: $mReg,
       ease: Circ.easeIn
-    }, "likely+=15.5");
+    }, "EXBONDS+=15.5");
      tl.to($circ, 1, {
         rotation: -176
-      }, "likely+=15.5");
+      }, "EXBONDS+=15.5");
   
     tl.to($(".p9"), 0.3, {
       scale: 1.3,
@@ -488,15 +488,15 @@ function rotateInfo() {
       x: 5,
       y: 10,
       ease: Bounce.easeOut
-    }, "likely+=16")
+    }, "EXBONDS+=16")
     .to($effect, 0.3, {
       y: -35,
       ease: Circ.easeOut
-    }, "likely+=16")
+    }, "EXBONDS+=16")
     .to($eLine, 0.3, {
       stroke: $yellow,
       ease: Circ.easeOut
-    }, "likely+=16")
+    }, "EXBONDS+=16")
     .fromTo($(".d9"), 0.3, {
       opacity: 0,
       scale: 0.7 
@@ -504,11 +504,11 @@ function rotateInfo() {
       opacity: 1,
       scale: 1,
       ease: Back.easeOut
-    }, "likely+=16")
+    }, "EXBONDS+=16")
     .to([$m1, $m2], 0.3, {
       fill: $green,
       ease: Circ.easeOut
-    }, "likely+=16");
+    }, "EXBONDS+=16");
   
     tl.to($(".p9"), 0.3, {
       scale: 1,
@@ -517,26 +517,26 @@ function rotateInfo() {
       transformOrigin: "50% 100%",
       fill: $reg,
       ease: Back.easeIn
-    }, "likely+=17.5")
+    }, "EXBONDS+=17.5")
     .to($effect, 0.3, {
       y: 0,
       ease: Circ.easeIn
-    }, "likely+=17.5")
+    }, "EXBONDS+=17.5")
     .to($eLine, 0.3, {
       stroke: $red,
       ease: Sine.easeOut
-    }, "likely+=17.5")
+    }, "EXBONDS+=17.5")
     .to($(".d9"), 0.3, {
       opacity: 0,
       scale: 0.7 
-    }, "likely+=17.5")
+    }, "EXBONDS+=17.5")
     .to([$m1, $m2], 0.3, {
       fill: $mReg,
       ease: Circ.easeIn
-    }, "likely+=17.5");
+    }, "EXBONDS+=17.5");
      tl.to($circ, 1, {
         rotation: -199
-      }, "likely+=17.5");
+      }, "EXBONDS+=17.5");
   
     tl.to($(".p10"), 0.3, {
       scale: 1.3,
@@ -546,11 +546,11 @@ function rotateInfo() {
       x: 3,
       y: 10,
       ease: Bounce.easeOut
-    }, "likely+=18")
+    }, "EXBONDS+=18")
     .to($effect, 0.3, {
       y: -6,
       ease: Circ.easeOut
-    }, "likely+=18")
+    }, "EXBONDS+=18")
     .fromTo($(".d10"), 0.3, {
       opacity: 0,
       scale: 0.7 
@@ -558,11 +558,11 @@ function rotateInfo() {
       opacity: 1,
       scale: 1,
       ease: Back.easeOut
-    }, "likely+=18")
+    }, "EXBONDS+=18")
     .to([$m1, $m2], 0.3, {
       fill: $green,
       ease: Circ.easeOut
-    }, "likely+=18");
+    }, "EXBONDS+=18");
   
     tl.to($(".p10"), 0.3, {
       scale: 1,
@@ -571,22 +571,22 @@ function rotateInfo() {
       transformOrigin: "50% 100%",
       fill: $reg,
       ease: Back.easeIn
-    }, "likely+=19.5")
+    }, "EXBONDS+=19.5")
     .to($effect, 0.3, {
       y: 0,
       ease: Circ.easeIn
-    }, "likely+=19.5")
+    }, "EXBONDS+=19.5")
     .to($(".d10"), 0.3, {
       opacity: 0,
       scale: 0.7 
-    }, "likely+=19.5")
+    }, "EXBONDS+=19.5")
     .to([$m1, $m2], 0.3, {
       fill: $mReg,
       ease: Circ.easeIn
-    }, "likely+=19.5");
+    }, "EXBONDS+=19.5");
       tl.to($circ, 1, {
         rotation: -222
-      }, "likely+=19.5");
+      }, "EXBONDS+=19.5");
   
     tl.to($(".p11"), 0.3, {
       scale: 1.3,
@@ -595,15 +595,15 @@ function rotateInfo() {
       x: 5,
       y: 10,
       ease: Bounce.easeOut
-    }, "likely+=20")
+    }, "EXBONDS+=20")
     .to($effect, 0.3, {
       y: -35,
       ease: Circ.easeOut
-    }, "likely+=20")
+    }, "EXBONDS+=20")
     .to($eLine, 0.3, {
       stroke: $yellow,
       ease: Circ.easeOut
-    }, "likely+=20")
+    }, "EXBONDS+=20")
     .fromTo($(".d11"), 0.3, {
       opacity: 0,
       scale: 0.7 
@@ -611,11 +611,11 @@ function rotateInfo() {
       opacity: 1,
       scale: 1,
       ease: Back.easeOut
-    }, "likely+=20")
+    }, "EXBONDS+=20")
     .to($m1, 0.3, {
       fill: $green,
       ease: Circ.easeOut
-    }, "likely+=20");
+    }, "EXBONDS+=20");
   
     tl.to($(".p11"), 0.3, {
       scale: 1,
@@ -624,26 +624,26 @@ function rotateInfo() {
       transformOrigin: "50% 100%",
       fill: $reg,
       ease: Back.easeIn
-    }, "likely+=21.5")
+    }, "EXBONDS+=21.5")
     .to($effect, 0.3, {
       y: 0,
       ease: Circ.easeIn
-    }, "likely+=21.5")
+    }, "EXBONDS+=21.5")
     .to($eLine, 0.3, {
       stroke: $red,
       ease: Sine.easeOut
-    }, "likely+=21.5")
+    }, "EXBONDS+=21.5")
     .to($(".d11"), 0.3, {
       opacity: 0,
       scale: 0.7 
-    }, "likely+=21.5")
+    }, "EXBONDS+=21.5")
     .to($m1, 0.3, {
       fill: $mReg,
       ease: Circ.easeIn
-    }, "likely+=21.5");
+    }, "EXBONDS+=21.5");
       tl.to($circ, 1, {
         rotation: -243
-      }, "likely+=21.5");
+      }, "EXBONDS+=21.5");
   
     tl.to($(".p12"), 0.3, {
       scale: 1.3,
@@ -652,15 +652,15 @@ function rotateInfo() {
       x: 5,
       y: 10,
       ease: Bounce.easeOut
-    }, "likely+=22")
+    }, "EXBONDS+=22")
     .to($effect, 0.3, {
       y: -35,
       ease: Circ.easeOut
-    }, "likely+=22")
+    }, "EXBONDS+=22")
     .to($eLine, 0.3, {
       stroke: $yellow,
       ease: Circ.easeOut
-    }, "likely+=22")
+    }, "EXBONDS+=22")
     .fromTo($(".d12"), 0.3, {
       opacity: 0,
       scale: 0.7 
@@ -668,11 +668,11 @@ function rotateInfo() {
       opacity: 1,
       scale: 1,
       ease: Back.easeOut
-    }, "likely+=22")
+    }, "EXBONDS+=22")
     .to([$m1, $m2, $m3], 0.3, {
       fill: $green,
       ease: Circ.easeOut
-    }, "likely+=22");
+    }, "EXBONDS+=22");
   
     tl.to($(".p12"), 0.3, {
       scale: 1,
@@ -681,26 +681,26 @@ function rotateInfo() {
       transformOrigin: "50% 100%",
       fill: $reg,
       ease: Back.easeIn
-    }, "likely+=23.5")
+    }, "EXBONDS+=23.5")
     .to($effect, 0.3, {
       y: 0,
       ease: Circ.easeIn
-    }, "likely+=23.5")
+    }, "EXBONDS+=23.5")
     .to($eLine, 0.3, {
       stroke: $red,
       ease: Sine.easeOut
-    }, "likely+=23.5")
+    }, "EXBONDS+=23.5")
     .to($(".d12"), 0.3, {
       opacity: 0,
       scale: 0.7 
-    }, "likely+=23.5")
+    }, "EXBONDS+=23.5")
     .to([$m1, $m2, $m3], 0.3, {
       fill: $mReg,
       ease: Circ.easeIn
-    }, "likely+=23.5");
+    }, "EXBONDS+=23.5");
       tl.to($circ, 1, {
         rotation: -265
-    }, "likely+=23.5");
+    }, "EXBONDS+=23.5");
   
     tl.to($(".p13"), 0.3, {
       scale: 1.3,
@@ -709,15 +709,15 @@ function rotateInfo() {
       x: 5,
       y: 10,
       ease: Bounce.easeOut
-    }, "likely+=24")
+    }, "EXBONDS+=24")
     .to($effect, 0.3, {
       y: -15,
       ease: Circ.easeOut
-    }, "likely+=24")
+    }, "EXBONDS+=24")
     .to($eLine, 0.3, {
       stroke: $orange,
       ease: Circ.easeOut
-    }, "likely+=24")
+    }, "EXBONDS+=24")
     .fromTo($(".d13"), 0.3, {
       opacity: 0,
       scale: 0.7 
@@ -725,11 +725,11 @@ function rotateInfo() {
       opacity: 1,
       scale: 1,
       ease: Back.easeOut
-    }, "likely+=24")
+    }, "EXBONDS+=24")
     .to([$m1, $m2, $m3], 0.3, {
       fill: $green,
       ease: Circ.easeOut
-    }, "likely+=24");
+    }, "EXBONDS+=24");
   
     tl.to($(".p13"), 0.3, {
       scale: 1,
@@ -738,26 +738,26 @@ function rotateInfo() {
       transformOrigin: "50% 100%",
       fill: $reg,
       ease: Back.easeIn
-    }, "likely+=25.5")
+    }, "EXBONDS+=25.5")
     .to($effect, 0.3, {
       y: 0,
       ease: Circ.easeIn
-    }, "likely+=25.5")
+    }, "EXBONDS+=25.5")
     .to($eLine, 0.3, {
       stroke: $red,
       ease: Sine.easeOut
-    }, "likely+=25.5")
+    }, "EXBONDS+=25.5")
     .to($(".d13"), 0.3, {
       opacity: 0,
       scale: 0.7 
-    }, "likely+=25.5")
+    }, "EXBONDS+=25.5")
     .to([$m1, $m2, $m3], 0.3, {
       fill: $mReg,
       ease: Circ.easeIn
-    }, "likely+=25.5");
+    }, "EXBONDS+=25.5");
        tl.to($circ, 1, {
         rotation: -287
-      }, "likely+=25.5");
+      }, "EXBONDS+=25.5");
   
     tl.to($(".p14"), 0.3, {
       scale: 1.3,
@@ -766,15 +766,15 @@ function rotateInfo() {
       x: 5,
       y: 10,
       ease: Bounce.easeOut
-    }, "likely+=26")
+    }, "EXBONDS+=26")
     .to($effect, 0.3, {
       y: -20,
       ease: Circ.easeOut
-    }, "likely+=26")
+    }, "EXBONDS+=26")
     .to($eLine, 0.3, {
       stroke: $orange,
       ease: Circ.easeOut
-    }, "likely+=26")
+    }, "EXBONDS+=26")
     .fromTo($(".d14"), 0.3, {
       opacity: 0,
       scale: 0.7 
@@ -782,11 +782,11 @@ function rotateInfo() {
       opacity: 1,
       scale: 1,
       ease: Back.easeOut
-    }, "likely+=26")
+    }, "EXBONDS+=26")
     .to([$m1, $m2], 0.3, {
       fill: $green,
       ease: Circ.easeOut
-    }, "likely+=26");
+    }, "EXBONDS+=26");
   
   tl.timeScale(0.7);
 
