@@ -134,10 +134,6 @@ h2 {
   margin-top: 215px;
 }
 
-#box, .money-lg, .letters {
-    display: block;
-}
-
 @media screen and (max-width: 475px) {
   #svg, .fallback {
     top: 320px;
@@ -180,14 +176,17 @@ h2 {
     text-align: center;
   }
 
-  #box, .money-lg, .letters {
-    display: none;
+  .money-lg{
+    opacity: 0;
   }
 }
 
 @media screen and (min-width: 826px) {
   .money-sm {
     display: none;
+  }
+  .money-lg{
+    opacity: 1;
   }
 
   .button, .button:visited, .button:active {
